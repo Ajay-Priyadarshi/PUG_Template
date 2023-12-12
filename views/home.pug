@@ -1,0 +1,45 @@
+extends base.pug
+
+block scripts
+    script (src="/static/index.js")
+
+block style 
+    style   
+        include ../static/style.css
+
+block content 
+    section#introSection 
+        div Welcom to Ajay's Dance Academy 
+        div.sub ABCD Any Body Can Dance
+
+    section#mission 
+        h1 Our Mission
+        div.card
+            h2 Dance perfection 
+            div.card-box
+                div.card-img
+                    img(src="/static/images/d1.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+        div.card
+            h2 DUM DUM 
+            div.card-box
+                div.card-img
+                    img(src="/static/images/d2.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+        div.card
+            h2 Boom Boom 
+            div.card-box
+                div.card-img
+                    img(src="/static/images/d3.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+
+    section#sponsorSection 
+        h1 Our Sponsors
+        div#sponsors
+            img(src="/static/images/amazon.png", class="sp")
+            img(src="/static/images/apple.png", class="sp")
+            img(src="/static/images/microsoft.png", class="sp")
+            img(src="/static/images/tesla.png", class="sp")
