@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+.container{
+    min-height: 80vh;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin: 12px 0;
+    margin-top: 50px;
+    font-family: 'Nova Square', sans-serif;
+}
+
+.frm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inp{
+    width: 40%;
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+
+.btn{
+    background-color: rgb(38, 237, 255);
+    border: 2px solid rgb(37, 118, 239);
+    border-radius: 12px;
+    padding: 8px 16px;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Nova Square', sans-serif;
+    cursor: pointer;
+}
